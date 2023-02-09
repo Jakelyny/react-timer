@@ -15,7 +15,7 @@ function Lista() {
     } ]
     return (
         <aside className={style.listaTarefas}>
-            <h2>Tarefas do dia</h2>''
+            <h2>Tarefas do dia</h2>
             <ul>
                 {tarefas.map((item, index) => (
                     <Item 
