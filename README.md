@@ -20,8 +20,8 @@ Projetinho trata-se de um estudo sobre React e Typescript na implementação de 
 ![image](https://user-images.githubusercontent.com/85123013/218141119-751e7539-0277-4733-8da9-d29890867c5c.png)
 
 <br/>
+
 ### Mobile:
-<br/>
 ![image](https://user-images.githubusercontent.com/85123013/218141345-19079d3c-9f67-47f4-909a-453dccf67f86.png)
 
 
