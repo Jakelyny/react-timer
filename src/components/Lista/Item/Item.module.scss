@@ -1,0 +1,46 @@
+.item {
+    background-color: #4D4D4D;
+    border-radius: 8px;
+    box-shadow: 2px 4px 4px #0000009F;
+    padding: 12px;
+    margin-bottom: 8px;
+    position: relative;
+    cursor: pointer;
+    transition: 1.5s;
+  
+    h3 {
+      margin-bottom: 8px;
+      word-break: break-all;
+    }
+  
+    span {
+      color: #D0D0D0;
+    }
+  
+    @media screen and (min-width:1280px) {
+      font-size: 1.8rem;
+    }
+  }
+  
+  .itemSelecionado {
+    background-color: #6B728E;
+    box-shadow: 2px 4px 4px #0000009F inset;
+  }
+  
+  .itemCompletado {
+    background-color: #566F42;
+    cursor: auto;
+  
+    .concluido {
+      display: block;
+      background-image: url('../../../assets/img/check.png');
+      background-repeat: no-repeat;
+      background-size: 45px 31px;
+      position: absolute;
+      top: 59%;
+      right: 15px;
+      transform: translateY(-50%);
+      width: 42px;
+      height: 43px;
+    }
+  }
